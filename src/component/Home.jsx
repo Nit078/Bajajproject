@@ -61,7 +61,7 @@ const EmployeeData = () => {
             <h2>{employee.name}</h2>
             <p>Designation: {employee.designation}</p>
             <p>Skills: {employee.skills.join(", ")}</p>
-            <button className='button'><a>Project</a></button>
+            <button className='button'>Project</button>
           </div>
         ))}
         </div>
